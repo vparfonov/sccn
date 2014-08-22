@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+main.xml - Layout file for Display.java.
+@author Tyler Holmgren
+TylerHolmgren@TJH.PW
+-->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:stretchColumns="0,1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/dblue"
+    android:orientation="horizontal"
+    style="?android:attr/buttonBarStyle" >
+
+    <TableRow>
+        
+	    <Button
+	        android:id="@+id/Button1"
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:layout_width="125dp"
+	        android:layout_height="100dp"
+	        android:layout_margin="20dp"
+	        android:background="@color/lblue"
+	        android:text="@string/Button1"
+	        android:textColor="@color/gold" />
+	    
+	    <Button
+	        android:id="@+id/Button2"
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:layout_width="125dp"
+	        android:layout_height="100dp"
+	        android:layout_margin="20dp"
+	        android:background="@color/lblue"
+	        android:text="@string/Button2"
+	        android:textColor="@color/gold" />
+
+    </TableRow>
+    
+    <TableRow>
+        
+	    <Button
+	        android:id="@+id/Button3"
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:layout_width="125dp"
+	        android:layout_height="100dp"
+	        android:layout_margin="20dp"
+	        android:layout_marginRight="20dp"
+	        android:background="@color/lblue"
+	        android:text="@string/Button3"
+	        android:textColor="@color/gold" />
+	    
+	    <Button
+	        android:id="@+id/Button4"
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:layout_width="125dp"
+	        android:layout_height="100dp"
+	        android:layout_margin="20dp"
+	        android:background="@color/lblue"
+	        android:text="@string/Button4"
+	        android:textColor="@color/gold" />
+	
+    </TableRow>
+    
+    <TableRow>
+
+        <Button
+            android:id="@+id/Button5"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/lblue"
+            android:text="@string/Button5"
+            android:textColor="@color/gold" />
+
+        <Button
+            android:id="@+id/Button6"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:background="@color/lblue"
+            android:text="@string/Button6"
+            android:textColor="@color/gold" />
+
+    </TableRow>
+	    
+</TableLayout>

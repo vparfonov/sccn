@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+description.xml - Layout file for Descrip.java.
+@author Tyler Holmgren
+TylerHolmgren@TJH.PW
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/dblue" >
+
+    <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/RssTitle"
+            android:id="@+id/RssTitle" android:layout_gravity="center_horizontal" android:layout_marginTop="20dp"
+            />
+    <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/RssDate"
+            android:id="@+id/RssDate"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+    <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/RssDetail"
+            android:id="@+id/RssDetail" android:layout_gravity="center_horizontal" android:layout_marginTop="20dp"/>
+</LinearLayout>
