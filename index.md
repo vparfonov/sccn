@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: SCC Notifications
+tagline: Changing the way you get updates.
 ---
 
 <ul class="posts">

@@ -9,7 +9,7 @@ highlighter: pygments
 # so be sure to set them if your theme uses them.
 #
 title : SCC Notifications
-tagline: Changing the way you get SCC Notifications.
+tagline: Changing the way you get updates.
 author :
   name : Tyler Holmgren
   email : tylerholmgren@tjh.pw
