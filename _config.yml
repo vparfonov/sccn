@@ -9,7 +9,7 @@ name: SCC Notifications
 description: The only way to get NOTIFIED!
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: http://scc.southcentral.edu/images/logo.png
+avatar: https://raw.githubusercontent.com/tylerjholmgren/scc-notifications/gh-pages/images/logo.gif
 
 #
 # Flags below are optional
