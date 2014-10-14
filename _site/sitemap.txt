@@ -1,9 +1,0 @@
-
-http://sccn.tjh.pw/archive.html
-http://sccn.tjh.pw/atom.xml
-http://sccn.tjh.pw/categories.html
-http://sccn.tjh.pw/index.html
-http://sccn.tjh.pw/pages.html
-http://sccn.tjh.pw/rss.xml
-http://sccn.tjh.pw/sitemap.txt
-http://sccn.tjh.pw/tags.html
