@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a student at South Central College. I am finishing up my Information Systems A.A.S Degree,
+then I plan on attending Metropolitan State University in St. Paul.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself. 
+I like anything to do with computers. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[tylerholmgren@tjh.pw](mailto:tylerholmgren@tjh.pw)
