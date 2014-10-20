@@ -14,12 +14,12 @@ TylerHolmgren@TJH.PW
     <string name="Button4">FB\nStudent Life</string>
     <string name="Button5">D2L\nCancelled\nClasses</string>
     <string name="Button6">Academic\nCalendar</string>
-    <string name="Link1">http://tjh.pw/scc-notifications-server/sccnmevents.php</string><!-- North Mankato Events ATOM -->
-    <string name="Link2">https://www.google.com/calendar/feeds/5jp8dgr34i6gogusn1o9kvc5ds%40group.calendar.google.com/public/basic</string><!-- Faribault Events ATOM -->
-    <string name="Link3">https://www.google.com/calendar/feeds/n5tqq9gp1ku7rel462df55a704%40group.calendar.google.com/public/basic</string><!-- Student Life North Mankato ATOM -->
-    <string name="Link4">https://www.google.com/calendar/feeds/s377a9ptglfvjsk5tcqgem3fkg%40group.calendar.google.com/public/basic</string><!-- Student Life Faribault ATOM -->
+    <string name="Link1">http://tjh.pw/scc-notifications-server/events/sccnmevents.php</string><!-- North Mankato Events RSS -->
+    <string name="Link2">http://tjh.pw/scc-notifications-server/events/sccfbevents.php</string><!-- Faribault Events RSS -->
+    <string name="Link3">http://tjh.pw/scc-notifications-server/life/sccslnm.php</string><!-- Student Life North Mankato RSS -->
+    <string name="Link4">http://tjh.pw/scc-notifications-server/life/sccslfb.php</string><!-- Student Life Faribault RSS -->
     <string name="Link5">http://cfapp.southcentral.edu/calendar/cancelled_classes/rss_today_future.xml</string><!-- D2L Canceled Courses RSS -->
-    <string name="Link6">https://www.google.com/calendar/feeds/8topte2rmjjkjmev61f69oelk8%40group.calendar.google.com/public/basic</string><!-- Academic Calendar ATOM -->
+    <string name="Link6">http://tjh.pw/scc-notifications-server/sccac.php</string><!-- Academic Calendar RSS -->
     <string name="RssTitle">Title</string>
     <string name="RssDate">Date</string>
     <string name="RssDetail">Description</string>

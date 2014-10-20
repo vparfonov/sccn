@@ -46,7 +46,7 @@ public class Display extends Activity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Display.this, AtomFeed.class);
+                Intent i = new Intent(Display.this, RssFeed.class);
                 String link = getResources().getString(R.string.Link2);
                 i.putExtra("LINK", link);
                 startActivity(i);
@@ -56,7 +56,7 @@ public class Display extends Activity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Display.this, AtomFeed.class);
+                Intent i = new Intent(Display.this, RssFeed.class);
                 String link = getResources().getString(R.string.Link3);
                 i.putExtra("LINK", link);
                 startActivity(i);
@@ -66,7 +66,7 @@ public class Display extends Activity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Display.this, AtomFeed.class);
+                Intent i = new Intent(Display.this, RssFeed.class);
                 String link = getResources().getString(R.string.Link4);
                 i.putExtra("LINK", link);
                 startActivity(i);
@@ -86,7 +86,7 @@ public class Display extends Activity {
         btn6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Display.this, AtomFeed.class);
+                Intent i = new Intent(Display.this, RssFeed.class);
                 String link = getResources().getString(R.string.Link6);
                 i.putExtra("LINK", link);
                 startActivity(i);
