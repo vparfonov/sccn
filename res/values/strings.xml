@@ -14,7 +14,7 @@ TylerHolmgren@TJH.PW
     <string name="Button4">FB\nStudent Life</string>
     <string name="Button5">D2L\nCancelled\nClasses</string>
     <string name="Button6">Academic\nCalendar</string>
-    <string name="Link1">https://www.google.com/calendar/feeds/4d5opepfgh3vfb5ds7fuvkoon0%40group.calendar.google.com/public/basic</string><!-- North Mankato Events ATOM -->
+    <string name="Link1">http://tjh.pw/scc-notifications-server/sccnmevents.php</string><!-- North Mankato Events ATOM -->
     <string name="Link2">https://www.google.com/calendar/feeds/5jp8dgr34i6gogusn1o9kvc5ds%40group.calendar.google.com/public/basic</string><!-- Faribault Events ATOM -->
     <string name="Link3">https://www.google.com/calendar/feeds/n5tqq9gp1ku7rel462df55a704%40group.calendar.google.com/public/basic</string><!-- Student Life North Mankato ATOM -->
     <string name="Link4">https://www.google.com/calendar/feeds/s377a9ptglfvjsk5tcqgem3fkg%40group.calendar.google.com/public/basic</string><!-- Student Life Faribault ATOM -->

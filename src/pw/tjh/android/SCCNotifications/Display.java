@@ -1,6 +1,5 @@
 package pw.tjh.android.SCCNotifications;
 
-import pw.tjh.android.SCCNotifications.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -37,7 +36,7 @@ public class Display extends Activity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Display.this, AtomFeed.class);
+                Intent i = new Intent(Display.this, RssFeed.class);
                 String link = getResources().getString(R.string.Link1);
                 i.putExtra("LINK", link);
                 startActivity(i);
@@ -63,7 +62,7 @@ public class Display extends Activity {
                 startActivity(i);
             }
         });
-        
+
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -73,7 +72,7 @@ public class Display extends Activity {
                 startActivity(i);
             }
         });
-        
+
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -83,7 +82,7 @@ public class Display extends Activity {
                 startActivity(i);
             }
         });
-        
+
         btn6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
