@@ -14,14 +14,13 @@ TylerHolmgren@TJH.PW
     <string name="Button4">FB\nStudent Life</string>
     <string name="Button5">D2L\nCancelled\nClasses</string>
     <string name="Button6">Academic\nCalendar</string>
-    <string name="Link1">http://tjh.pw/scc-notifications-server/sccnmevents/sccnmevents.php</string><!-- North Mankato Events RSS -->
-    <string name="Link2">http://tjh.pw/scc-notifications-server/sccfbevents/sccfbevents.php</string><!-- Faribault Events RSS -->
-    <string name="Link3">http://tjh.pw/scc-notifications-server/sccslnm/sccslnm.php</string><!-- Student Life North Mankato RSS -->
-    <string name="Link4">http://tjh.pw/scc-notifications-server/sccslfb/sccslfb.php</string><!-- Student Life Faribault RSS -->
+    <string name="Link1">http://sccnserver-tylerjholmgren.rhcloud.com/sccnmevents.php</string><!-- North Mankato Events RSS -->
+    <string name="Link2">http://sccnserver-tylerjholmgren.rhcloud.com/sccfbevents.php</string><!-- Faribault Events RSS -->
+    <string name="Link3">http://sccnserver-tylerjholmgren.rhcloud.com/sccslnm.php</string><!-- Student Life North Mankato RSS -->
+    <string name="Link4">http://sccnserver-tylerjholmgren.rhcloud.com/sccslfb.php</string><!-- Student Life Faribault RSS -->
     <string name="Link5">http://cfapp.southcentral.edu/calendar/cancelled_classes/rss_today_future.xml</string><!-- D2L Canceled Courses RSS -->
-    <string name="Link6">http://tjh.pw/scc-notifications-server/sccac/sccac.php</string><!-- Academic Calendar RSS -->
+    <string name="Link6">http://sccnserver-tylerjholmgren.rhcloud.com/sccac.php</string><!-- Academic Calendar RSS -->
     <string name="RssTitle">Title</string>
     <string name="RssDate">Date</string>
     <string name="RssDetail">Description</string>
-    <string name="AtomTitle">Title</string>
 </resources>
