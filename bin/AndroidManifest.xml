@@ -19,7 +19,7 @@ TylerHolmgren@TJH.PW
             android:label="@string/app_name"
             android:allowBackup="true">
         <activity
-                android:name="pw.tjh.android.SCCNotifications.Display"
+                android:name="pw.tjh.android.sccn.Display"
                 android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,11 +28,11 @@ TylerHolmgren@TJH.PW
             </intent-filter>
         </activity>
         <activity
-                android:name="pw.tjh.android.SCCNotifications.RssFeed"
+                android:name="pw.tjh.android.sccn.RssFeed"
                 android:label="@string/app_name">
         </activity>
         <activity
-                android:name="pw.tjh.android.SCCNotifications.RssDetail"
+                android:name="pw.tjh.android.sccn.RssDetail"
                 android:label="@string/app_name">
         </activity>
     </application>
