@@ -1,0 +1,20 @@
+---
+layout: post
+title: Bugs Bugs Bugs!!!
+---
+
+I just wanted to let you all know that the current build that I have
+hosted on github is working. If anyone would like to test it, feel free, but
+please give me feedback.
+
+There are a few bugs that I have yet to work out:
+
+1. Curcumflex A showing up in the atom feeds.
+2. Dates not being formatted correctly on certain entries (RSS/Atom).
+
+If you would like to take care of any bugs you find or fix the current bugs
+that I am aware of, I welcome you to do so.
+
+Thanks,
+
+Tyler
