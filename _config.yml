@@ -18,10 +18,10 @@ avatar: https://raw.githubusercontent.com/tylerjholmgren/scc-notifications/gh-pa
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble: 
-  email: tylerholmgren@tjh.pw
+  email: tylerholmgren@nerdev.co
   facebook: 
   flickr: 
-  github: tylerjholmgren/sccn
+  github: nerdev/sccn
   instagram: 
   linkedin: 
   pinterest: 
@@ -37,7 +37,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: tylerjholmgren.github.io
+url: nerdev.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages 
 # (http://yourusername.github.io/repository-name)
