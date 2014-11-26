@@ -32,7 +32,6 @@ public class Display extends Activity {
         Button btn3 = (Button) findViewById(R.id.Button3);
         Button btn4 = (Button) findViewById(R.id.Button4);
         Button btn5 = (Button) findViewById(R.id.Button5);
-        Button btn6 = (Button) findViewById(R.id.Button6);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,15 +83,6 @@ public class Display extends Activity {
             }
         });
 
-        btn6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(Display.this, RssFeed.class);
-                String link = getResources().getString(R.string.Link6);
-                i.putExtra("LINK", link);
-                startActivity(i);
-            }
-        });
     }
 }
 

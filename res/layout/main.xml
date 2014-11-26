@@ -38,53 +38,44 @@ TylerHolmgren@TJH.PW
     </TableRow>
     
     <TableRow>
-        
-	    <Button
-	        android:id="@+id/Button3"
-	        style="?android:attr/buttonBarButtonStyle"
-	        android:layout_width="125dp"
-	        android:layout_height="100dp"
-	        android:layout_margin="20dp"
-	        android:layout_marginRight="20dp"
-	        android:background="@color/lblue"
-	        android:text="@string/Button3"
-	        android:textColor="@color/gold" />
-	    
-	    <Button
-	        android:id="@+id/Button4"
-	        style="?android:attr/buttonBarButtonStyle"
-	        android:layout_width="125dp"
-	        android:layout_height="100dp"
-	        android:layout_margin="20dp"
-	        android:background="@color/lblue"
-	        android:text="@string/Button4"
-	        android:textColor="@color/gold" />
+
+        <Button
+                android:id="@+id/Button3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lblue"
+                android:text="@string/Button3"
+                android:textColor="@color/gold"/>
+
+        <Button
+                android:id="@+id/Button4"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:layout_margin="20dp"
+                android:background="@color/lblue"
+                android:text="@string/Button4"
+                android:textColor="@color/gold" />
 	
     </TableRow>
     
     <TableRow>
+
+
 
         <Button
             android:id="@+id/Button5"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="125dp"
             android:layout_height="100dp"
-            android:layout_marginBottom="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginTop="10dp"
-            android:background="@color/lblue"
-            android:text="@string/Button5"
-            android:textColor="@color/gold" />
-
-        <Button
-            android:id="@+id/Button6"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="125dp"
-            android:layout_height="100dp"
             android:layout_margin="20dp"
             android:background="@color/lblue"
-            android:text="@string/Button6"
+            android:text="@string/Button5"
             android:textColor="@color/gold" />
 
     </TableRow>
