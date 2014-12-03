@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/scc-notifications.iml" filepath="$PROJECT_DIR$/scc-notifications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sccn.iml" filepath="$PROJECT_DIR$/sccn.iml" />
     </modules>
   </component>
 </project>
-
