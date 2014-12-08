@@ -1,6 +1,7 @@
 package co.nerdev.android.sccn.util;
 
 import co.nerdev.android.sccn.data.RssItem;
+import org.androidannotations.annotations.EBean;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -11,9 +12,9 @@ import java.util.List;
  * @author Tyler Holmgren
  * TylerHolmgren@TJH.PW
  */
-
+@EBean
 public class RssReader {
-	
+
 	final private String rssUrl;
 
 	/**

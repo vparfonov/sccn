@@ -1,14 +1,13 @@
 package co.nerdev.android.sccn;
 
 import android.app.Activity;
-import android.content.Intent;
-import android.os.Bundle;
 import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import co.nerdev.android.sccn.data.RssItem;
 import co.nerdev.android.sccn.listeners.RssListListener;
 import co.nerdev.android.sccn.util.RssReader;
+import org.androidannotations.annotations.*;
 
 /**
  * RssFeed.java - Displays RssFeeds in a ListView
@@ -16,33 +15,25 @@ import co.nerdev.android.sccn.util.RssReader;
  * TylerHolmgren@TJH.PW
  */
 
+@EActivity(R.layout.rssfeed)
 public class RssFeed extends Activity {
 
-	@Override
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		// Set view
-		setContentView(R.layout.rssfeed);
-
+	@Extra("LINK")
+	String link;
+	@Bean
+	RssReader rssReader = new RssReader(link);
+	@ViewById(R.id.listMainView)
+	ListView items;
+	@AfterViews
+	void updateList() {
 		try {
-            Intent i = getIntent();
-            String link = i.getStringExtra("LINK");
-			// Create RSS reader
-			RssReader rssReader = new RssReader(link);
-			// Get a ListView from main view
-			ListView items = (ListView) findViewById(R.id.listMainView);
-			
-			// Create a list adapter
-			ArrayAdapter<RssItem> adapter = new ArrayAdapter<RssItem>(RssFeed.this,android.R.layout.simple_list_item_1, rssReader.getItems());
-			// Set list adapter for the ListView
+			ArrayAdapter<RssItem> adapter = null;
+			adapter = new ArrayAdapter<RssItem>(RssFeed.this, android.R.layout.simple_list_item_1, rssReader.getItems());
 			items.setAdapter(adapter);
-			
-			// Set list view item click listener
-            items.setOnItemClickListener(new RssListListener(rssReader.getItems(), RssFeed.this));
-
-		} catch (Exception e) {
-			Log.e("RssReader", e.getMessage());
+			items.setOnItemClickListener(new RssListListener(rssReader.getItems(), RssFeed.this));
 		}
-		
+		catch (Exception e) {
+			Log.d("ERROR", String.valueOf(e));
+		}
 	}
 }

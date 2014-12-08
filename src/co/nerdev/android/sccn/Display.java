@@ -2,10 +2,9 @@ package co.nerdev.android.sccn;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.os.Bundle;
-import android.os.StrictMode;
-import android.view.View;
-import android.widget.Button;
+import org.androidannotations.annotations.Click;
+import org.androidannotations.annotations.EActivity;
+import org.androidannotations.annotations.res.StringRes;
 
 /**
  * Display.java - Main Activity & Displays buttons to redirect to correct feed ListView.
@@ -13,76 +12,56 @@ import android.widget.Button;
  * TylerHolmgren@TJH.PW
  */
 
+@EActivity(R.layout.main)
 public class Display extends Activity {
 
-    String title;
-    String date;
-    String description;
+    @StringRes(R.string.Link1)
+    String Link1;
+    @StringRes(R.string.Link2)
+    String Link2;
+    @StringRes(R.string.Link3)
+    String Link3;
+    @StringRes(R.string.Link4)
+    String Link4;
+    @StringRes(R.string.Link5)
+    String Link5;
 
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
 
-        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-        StrictMode.setThreadPolicy(policy);
-        
-        Button btn1 = (Button) findViewById(R.id.Button1);
-        Button btn2 = (Button) findViewById(R.id.Button2);
-        Button btn3 = (Button) findViewById(R.id.Button3);
-        Button btn4 = (Button) findViewById(R.id.Button4);
-        Button btn5 = (Button) findViewById(R.id.Button5);
-
-        btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(Display.this, RssFeed.class);
-                String link = getResources().getString(R.string.Link1);
-                i.putExtra("LINK", link);
-                startActivity(i);
-            }
-        });
-
-        btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(Display.this, RssFeed.class);
-                String link = getResources().getString(R.string.Link2);
-                i.putExtra("LINK", link);
-                startActivity(i);
-            }
-        });
-
-        btn3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(Display.this, RssFeed.class);
-                String link = getResources().getString(R.string.Link3);
-                i.putExtra("LINK", link);
-                startActivity(i);
-            }
-        });
-
-        btn4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(Display.this, RssFeed.class);
-                String link = getResources().getString(R.string.Link4);
-                i.putExtra("LINK", link);
-                startActivity(i);
-            }
-        });
-
-        btn5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(Display.this, RssFeed.class);
-                String link = getResources().getString(R.string.Link5);
-                i.putExtra("LINK", link);
-                startActivity(i);
-            }
-        });
-
+    @Click(R.id.Button1)
+    void clickButton1() {
+        Intent i = new Intent(Display.this, RssFeed.class);
+        i.putExtra("LINK", Link1);
+        startActivity(i);
     }
+
+    @Click(R.id.Button2)
+    void clickButton2() {
+        Intent i = new Intent(Display.this, RssFeed.class);
+        i.putExtra("LINK", Link2);
+        startActivity(i);
+    }
+
+    @Click(R.id.Button3)
+    void clickButton3() {
+        Intent i = new Intent(Display.this, RssFeed.class);
+        i.putExtra("LINK", Link3);
+        startActivity(i);
+    }
+
+    @Click(R.id.Button4)
+    void clickButton4() {
+        Intent i = new Intent(Display.this, RssFeed.class);
+        i.putExtra("LINK", Link4);
+        startActivity(i);
+    }
+
+    @Click(R.id.Button5)
+    void clickButton5() {
+        Intent i = new Intent(Display.this, RssFeed.class);
+        i.putExtra("LINK", Link5);
+        startActivity(i);
+    }
+
 }
 
 

@@ -3,7 +3,7 @@ package co.nerdev.android.sccn;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
-import co.nerdev.android.sccn.R;
+import org.androidannotations.annotations.EActivity;
 
 /**
  * RssDetail.java - Displays title, date, and description of a single entry from an rss feed.
@@ -11,10 +11,9 @@ import co.nerdev.android.sccn.R;
  * TylerHolmgren@TJH.PW
  */
 
+@EActivity(R.layout.rssdetail)
 public class RssDetail extends Activity {
     public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.rssdetail);
 
         TextView tvTitle = (TextView) findViewById(R.id.RssTitle);
         TextView tvDate = (TextView) findViewById(R.id.RssDate);
